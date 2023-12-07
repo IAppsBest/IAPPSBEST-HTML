@@ -1,0 +1,67 @@
+.e-sign-card8-feature-card {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.e-sign-card8-feature-card:hover {
+  transform: scale(1.02);
+}
+.e-sign-card8-text {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.e-sign-card8-text1 {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.e-sign-card8-image {
+  width: 100px;
+  align-self: center;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.e-sign-card8-link {
+  align-self: center;
+  margin-top: 0px;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.e-sign-card8-link1 {
+  align-self: center;
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  margin-bottom: auto;
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+@media(max-width: 1600px) {
+  .e-sign-card8-image {
+    width: 100px;
+  }
+}
+@media(max-width: 479px) {
+  .e-sign-card8-image {
+    width: 100px;
+  }
+  .e-sign-card8-link {
+    margin-top: auto;
+  }
+  .e-sign-card8-link1 {
+    margin-top: auto;
+  }
+}
