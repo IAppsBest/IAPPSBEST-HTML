@@ -1758,19 +1758,6 @@
   align-self: center;
   text-decoration: none;
 }
-.method-container1 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-.method-text3 {
-  color: var(--dl-color-gray-white);
-  align-self: center;
-}
 .method-feature-card {
   width: 100%;
   display: flex;
@@ -1785,11 +1772,11 @@
 .method-feature-card:hover {
   transform: scale(1.02);
 }
-.method-text4 {
+.method-text03 {
   align-self: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.method-text5 {
+.method-text06 {
   align-self: center;
   margin-bottom: var(--dl-space-space-unit);
 }
@@ -1810,13 +1797,65 @@
   text-decoration: none;
   background-color: transparent;
 }
+.method-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.method-text07 {
+  color: var(--dl-color-gray-white);
+  align-self: center;
+}
+.method-feature-card1 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.method-feature-card1:hover {
+  transform: scale(1.02);
+}
+.method-text08 {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.method-text09 {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.method-image1 {
+  width: 100px;
+  align-self: center;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.method-link1 {
+  align-self: center;
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  margin-bottom: auto;
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
 .method-features {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: var(--dl-size-size-maxwidth);
   align-self: center;
-  margin-top: var(--dl-space-space-unit);
+  margin-top: 0px;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -1917,6 +1956,9 @@
     color: var(--dl-color-gray-white);
   }
   .method-link {
+    margin-top: auto;
+  }
+  .method-link1 {
     margin-top: auto;
   }
   .method-features {
