@@ -1,4 +1,4 @@
-.e-sign-card19-feature-card {
+.e-sign-card22-feature-card {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -9,25 +9,25 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.e-sign-card19-feature-card:hover {
+.e-sign-card22-feature-card:hover {
   transform: scale(1.02);
 }
-.e-sign-card19-text {
+.e-sign-card22-text {
   align-self: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.e-sign-card19-text1 {
+.e-sign-card22-text1 {
   align-self: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.e-sign-card19-image {
+.e-sign-card22-image {
   width: 100px;
   align-self: center;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
   margin-bottom: var(--dl-space-space-unit);
 }
-.e-sign-card19-link {
+.e-sign-card22-link {
   align-self: center;
   margin-top: 0px;
   padding-top: var(--dl-space-space-unit);
@@ -38,7 +38,7 @@
   text-decoration: none;
   background-color: transparent;
 }
-.e-sign-card19-link1 {
+.e-sign-card22-link1 {
   align-self: center;
   margin-top: auto;
   padding-top: var(--dl-space-space-unit);
@@ -51,18 +51,18 @@
 }
 
 @media(max-width: 1600px) {
-  .e-sign-card19-image {
+  .e-sign-card22-image {
     width: 100px;
   }
 }
 @media(max-width: 479px) {
-  .e-sign-card19-image {
+  .e-sign-card22-image {
     width: 100px;
   }
-  .e-sign-card19-link {
+  .e-sign-card22-link {
     margin-top: auto;
   }
-  .e-sign-card19-link1 {
+  .e-sign-card22-link1 {
     margin-top: auto;
   }
 }
